@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:6fe32e06-1472-4830-a9a8-7bffce87ecb4
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
